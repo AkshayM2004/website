@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.app-bar-left .menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app-bar-center h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.app-bar-right .notification-icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding:15px;
+    border-radius: 150px;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Rubik',sans-serif ;
+    margin: 15px 0;
+    
+}
+
+.welcome-section {
+  border:  1px solid black;
+    height: 100px;
+    width: 300px; ;
+    padding: 15px;
+    background-color: #ced3da;
+    border-width: 5px;
+    border-radius: 150px;
+    padding: 15px;
+    margin: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.welcome-section p {
+    font-size: 14px;
+    color: #555;
+}
+
+.projects-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 48%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card .date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+@media screen and  (max-width: 600px){
+           h1{
+            font-size: 36px;
+            line-height: 50px;
+           }
+}
